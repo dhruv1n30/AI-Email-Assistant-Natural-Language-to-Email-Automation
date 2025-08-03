@@ -1,5 +1,6 @@
 # FastAPI application entry point
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.v1.endpoints import email
 
@@ -9,7 +10,6 @@ app = FastAPI(title="AI Email Assistant",
 
 
 #Allow all origin for CORS
-from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
     CORSMiddleware,

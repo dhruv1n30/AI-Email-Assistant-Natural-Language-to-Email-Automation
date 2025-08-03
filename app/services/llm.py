@@ -5,7 +5,6 @@ from openai import OpenAI
 from app.core.config import Config
 from app.models.email_response import EmailResponse
 
-
 google_key = Config.GOOGLE_API_KEY
 
 # print(google_key)
