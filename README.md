@@ -133,4 +133,4 @@ your_project/
 
 ## Environment Variables
 
-- **.env** file should contain:
+- **.env** file should contain: `GOOGLE_API_KEY`
