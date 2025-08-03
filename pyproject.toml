@@ -1,7 +1,7 @@
 [project]
 name = "ai-email-assistant-natural-language-to-email-automation"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI Email Assistant is a FastAPI-based backend application that leverages generative AI (Gemini via OpenAI API interface) to automate the generation and sending of professional emails from natural language input. It integrates with Gmail for email delivery, supports robust credential management, and is designed for extensibility and secure operation."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
