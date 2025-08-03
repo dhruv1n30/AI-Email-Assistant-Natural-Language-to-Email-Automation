@@ -1,1 +1,0 @@
-# Example: User-related endpoints
