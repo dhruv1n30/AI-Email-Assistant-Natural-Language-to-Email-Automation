@@ -4,7 +4,8 @@ from fastapi import FastAPI
 from app.api.v1.endpoints import email
 
 app = FastAPI(title="AI Email Assistant",
-            description="An AI-powered email assistant that automates email generation from natural language input.",)
+            description="An AI-powered email assistant that automates email generation from natural language input.",
+            version="0.0.0")
 
 
 #Allow all origin for CORS

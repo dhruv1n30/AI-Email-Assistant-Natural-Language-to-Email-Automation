@@ -1,4 +1,3 @@
-# gmail_sender.py
 import base64
 from email.mime.text import MIMEText
 
