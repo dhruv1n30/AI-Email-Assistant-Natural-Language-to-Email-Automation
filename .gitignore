@@ -208,3 +208,4 @@ __marimo__/
 token.json
 credentials.json
 template.py
+"token.pickle" 
